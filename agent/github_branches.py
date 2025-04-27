@@ -17,7 +17,7 @@ def list_branches_in_repo():
     res = requests.get(url, headers=headers)
 
     if not res.ok:
-        raise Exception(f"❌ Could not list branches: {res.status_code} {res.text}")
+        raise Exception(f" Could not list branches: {res.status_code} {res.text}")
 
     branches = res.json()
     return [b["name"] for b in branches]
