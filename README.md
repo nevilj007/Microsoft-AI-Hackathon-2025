@@ -30,13 +30,7 @@ on:
         default: "latest"
 ```
 
-### Packages:
-You will need the following Python libraries:
 
-- `httpx`
-- `requests`
-- `python-dotenv`
-- `argparse`
 
 ## Setup
 
@@ -45,7 +39,7 @@ You will need the following Python libraries:
 Clone this repository to your local machine into your project directory for eg:buildbot :
 
 ```bash
-git clone https://github.com/yourusername/buildbot.git](https://github.com/nevilj007/Microsoft-AI-Hackathon-2025.git
+git clone https://github.com/nevilj007/Microsoft-AI-Hackathon-2025.git
 ```
 
 ### 2. Set up a virtual environment
