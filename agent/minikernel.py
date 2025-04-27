@@ -42,7 +42,7 @@ class MiniKernel:
             if not chosen_file:
                 return
 
-        # ✅ Validate branch
+        #  Validate branch
         available_branches = list_branches_in_repo()
         if intent and "ref" in intent and intent["ref"] in available_branches:
             branch = intent["ref"]
