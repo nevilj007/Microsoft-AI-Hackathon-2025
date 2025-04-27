@@ -47,7 +47,7 @@ git clone https://github.com/nevilj007/Microsoft-AI-Hackathon-2025.git
 Navigate to the project directory and set up a virtual environment:
 
 ```bash
-cd buildbot
+cd Microsoft-AI-Hackathon-2025
 python3 -m venv venv
 ```
 
