@@ -17,7 +17,7 @@ def list_workflows_in_repo():
     res = requests.get(url, headers=headers)
 
     if not res.ok:
-        raise Exception(f"❌ Could not list workflow files: {res.status_code} {res.text}")
+        raise Exception(f" Could not list workflow files: {res.status_code} {res.text}")
 
     files = res.json()
 
