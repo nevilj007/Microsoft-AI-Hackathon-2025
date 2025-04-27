@@ -4,7 +4,7 @@
 
 # BuildBot: Zero-Cost CI/CD Assistant
 
-BuildBot is a lightweight AI-powered assistant designed to integrate with GitHub Actions. It helps automate build triggering, status monitoring, and log summarization with zero cost, making your CI/CD workflows smarter and faster at zero cost!. 
+BuildBot is a lightweight AI-powered assistant designed to integrate with GitHub Actions. It helps automate build triggering, status monitoring, and log summarization with zero cost, making your CI/CD workflows smarter and faster -all for $0 !. 
 
 ## Features:
 - **Trigger workflows** on GitHub via AI-based commands.
