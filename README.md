@@ -18,7 +18,7 @@ BuildBot is a lightweight AI-powered assistant designed to integrate with GitHub
 - GitHub repository with Actions set up.
 - GitHub Personal Access Token (PAT) with required permissions.
 - Python 3.8 or above.
-- Required permissions in the workflow for auto dispatch in GitHub:
+- Required permissions in the workflow for auto dispatch in GitHub (note that on:workflow_dispatch is permission required for manual dispatch and rest all are just input parameters which will be variable per user:
 
 ```yaml
 on:
